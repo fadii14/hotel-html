@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0%;
+    /* overflow-x: hidden; */
+}
+body{
+    padding: 0%;
+}
+#header{
+    padding: 0;
+    margin: 0;
+    border: 1px solid white;
+    width: 100%;
+    height: 90px;
+    z-index: 1;
+}
+.head-logo{
+    float: left;
+    margin-top:8px;
+}
+.logo-img{
+    width: 80px;
+    height: 80px;
+}
+#nav-bar{
+    float: right;
+    margin-top: 2rem;
+}
+.nav-Ul{
+    float: left;
+}
+.nav-Ul>li{
+    float: left;
+    list-style: none;
+    padding-right: 18px;
+}
+.nav-Ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 25px;
+}
+.nav-sel{
+    text-decoration: none;
+    border: none;  
+    background-color: transparent;
+    border: 0px solid; 
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.nav-sel>option{
+    color: black;
+    border: solid transparent;
+}
+#home{
+    width: 100%;
+    height: 700px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLggQCg1pcQKaAxplcwXFP7RNnpxMfFWoHjg&usqp=CAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-head{
+    position: absolute;
+    top: 325px;
+    left: 400px;
+    font-size: 3rem;
+    color: white;
+}
+.home-head2{
+    position: absolute;
+    top: 325px;
+    left: 540px;
+    font-size: 3rem;
+    color: white;  
+    transition: transform .3s; 
+}
+.home-head2:hover{
+    transform: scale(0.9);
+}
+.home-btn{
+    position: absolute;
+    top: 400px;
+    left: 559px;
+    width: 12rem;
+    height: 3rem;
+    background-color: rgb(69, 177, 116);
+    color: white;
+    font-size: 24px;
+    border: solid transparent;
+    border-radius: 5px;
+    z-index: 0;
+}
+.home-btn2{
+    position: absolute;
+    top: 400px;
+    left: 559px;
+    width: 12rem;
+    height: 3rem;
+    background-color: rgb(69, 177, 116);
+    color: white;
+    font-size: 24px;
+    border: solid transparent;
+    border-radius: 5px;
+    z-index: 0;
+    transition: transform .3s;
+}
+.home-btn2:hover{
+    transform: scale(0.9);
+}
+.photo-gallery{
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    height: 900px;
+}
+.photos{
+    position: absolute;
+    left: 80px;
+    top: 630px;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    gap: 10px 50px;
+    justify-content: center;
+    /* border-radius: 5%;
+    transition: transform .7s;
+    border: solid transparent;
+    border-radius: 30% ; */
+}
+/* .photos:hover{
+    transform: scale(0.9);
+} */
+.photo{
+    width: 303px;
+    height: 200px;
+    transition: transform .7s;
+    border: solid transparent;
+    border-radius: 30% ;
+}
+.photo:hover{
+    transform: scale(0.9);
+    background-color: black;
+}
+.picture-para{
+    font-size: x-large;
+    float: left;
+    display: inline;
+}
+.material-symbols-outlined{
+    float: right;
+    color: white;
+}
+.News{
+    overflow-x: hidden;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(18, 18, 18);
+}
+.left-news{
+    float: left;
+    width: 40%;
+}
+.left-head{
+    color: white;
+    margin: 5px;
+    margin-top: 20px;
+}
+.news{
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+    transition: transform .3s;
+}
+.news:hover{
+    transform: scaleX(0.95);
+    background-color: black;
+}
+
+.news-h{
+    margin: 19px;
+    color: white;
+}
+.news-p{
+    color: gray;
+    margin: 10px;
+}
+.right-news{
+    width: 50%;
+    float: right;
+}
+.news-img{
+    margin-top: 10px;
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+footer{
+    size: 100%;
+    background-color: black;
+    height: 200px;
+    
+}
+.fa-brands{
+    color: white;
+    height: 100px;
+    margin-top: 50px;
+    
+}
+.fa-light{
+    color: white;;
+    height: 100px;
+    margin-top: 50px;
+}
+.foot-icons{
+    width: 100%;
+    text-align: center;
+}
+.foot-link{
+    text-align: center;
+    text-decoration: none;
+}
+.end{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(18, 18, 18);
+}
+.address{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(18, 18, 18);
+}
+.address-left{
+    background-color: rgb(18, 18, 18);
+    width: 40%;
+    float: left;
+}
+.address-head{
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.address-para{
+    color: gray;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.address-para2{
+    color: gray;
+    margin-top: 10px;
+    padding-left: 20px;
+}
